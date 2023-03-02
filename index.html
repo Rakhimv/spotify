@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+    <title>Spotify - Моя медиатека</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- Левый блок -->
+        <nav class="left_Nav">
+            <div class="logo-pc">
+                <div class="logo">
+                    <img src="logo/Single.svg" class="imgSingle" alt="">
+                    <img src="logo/Vector.svg" class="imgSpotify" alt="">
+                </div>
+                <div class="nav-arr"></div>
+            </div>
+
+            <div class="menu_container">
+                <div class="item_menu item_menu-active">
+                    <img src="icons/Line=empty, Name=home.svg" alt="" class="item_logo">
+                    <p>Home</p>
+                </div>
+                <div class="item_menu">
+                    <img src="icons/Line=empty, Name=search.svg" alt="" class="item_logo">
+                    <p>Search</p>
+                </div>
+                <div class="item_menu">
+                    <img src="icons/Line=empty, Name=library.svg" alt="" class="item_logo">
+                    <p>Library</p>
+                </div>
+                <div class="line"></div>
+                <div class="item_menu like-Songs">
+                    <img src="icons/Line=empty, Name=like.svg" alt="" class="item_logo">
+                    <p>Liked Songs</p>
+                </div>
+                <div class="item_menu like-Songs">
+                    <img src="icons/downloads.svg" alt="" class="item_logo">
+                    <p>Downloads</p>
+                </div>
+                <div class="line"></div>
+            </div>
+
+
+            <div class="nav_playlist">
+                <div class="title">
+                    <p>Playlists</p>
+                    <img src="icons/Line=empty, Name=dots.svg" alt="">
+                </div>
+                <div class="change_list">
+                    <img src="icons/folder.svg" alt="">
+                    <img src="icons/Line=empty, Name=ListBullets.svg" alt="">
+                </div>
+                <div class="playlists">
+                    <div class="item_playlist">
+                        <div class="top_play">
+                            <p>Hip-Hop</p>
+                            <img src="icons/array.svg" alt="">
+                        </div>
+                        <div class="janr">
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_playlist">
+                        <div class="top_play">
+                            <p>Pop</p>
+                            <img src="icons/array.svg" alt="">
+                        </div>
+                        <div class="janr">
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_playlist">
+                        <div class="top_play">
+                            <p>Rock</p>
+                            <img src="icons/array.svg" alt="">
+                        </div>
+                        <div class="janr">
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_playlist">
+                        <div class="top_play">
+                            <p>Collaborative</p>
+                            <img src="icons/array.svg" alt="">
+                        </div>
+                        <div class="janr">
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_playlist">
+                        <div class="top_play">
+                            <p>Playlists You Follow</p>
+                            <img src="icons/array.svg" alt="">
+                        </div>
+                        <div class="janr">
+                            <div class="item_janres">
+                                <p>Flint Hip Hop</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <a class="download_app" onclick="downloadEXE()">DOWNLOAD APP</a>
+            </div>
+            <a class="download_hide" onclick="downloadEXE()">
+                <i class='bx bx-download'></i>
+            </a>
+        </nav>
+
+
+
+        <!-- Основной блок -->
+        <div class="home_Nav">
+            <header>
+                <div class="lefting">
+                    <div class="left_header">
+                        <div class="backarr">
+                            <img src="icons/back.svg" alt="">
+                        </div>
+                        <div class="nextarr">
+                            <img src="icons/next.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cont_input">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Artists, songs, or podcasts" id="search_inp">
+                    </div>
+                </div>
+
+                <div class="authFalse">
+                    <a href="#">Log in</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </header>
+
+
+
+            <div class="basic">
+
+                <div class="my_category">
+                    <div class="liked_cat">
+                        <span class="bgc1">
+                            <img src="icons/Line=fill, Name=like.svg" alt="">
+                        </span>
+                        <p>Liked Songs</p>
+                    </div>
+                    <div class="recently_cat">
+                        <span class="bgc2">
+                            <img src="icons/Line=fill, Name=music.svg" alt="">
+                        </span>
+                        <p>Recently Played</p>
+                    </div>
+                    <div class="friends_cat">
+                        <span class="bgc3">
+                            <img src="icons/Line=fill, Name=friends.svg" alt="">
+                        </span>
+                        <p>Friends Played</p>
+                    </div>
+                </div>
+
+                <div class="cont_playlist">
+                    <div class="loader">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Правый блок: Друзья -->
+        <div class="right_Nav">
+
+            <div class="right_Nav-flex">
+                <div class="right_Nav-hide">
+                    <img src="icons/Line=empty, Name=friends.svg" alt="">
+                    <img src="icons/Line=empty, Name=left-arrow.svg" alt="">
+                </div>
+                <div class="friendActivity">
+                    <p>Friends Activity</p>
+                </div>
+            </div>
+
+            <div class="friend_container">
+                <div class="friends_authFalse">
+                    <p>Make friends with a free Spotify account</p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Контроллер -->
+    <div class="controller">
+        <div class="control_authFalse">
+            <div>
+                <span>Preview of Spotify</span><br>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button>Sign up free</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/shablon.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dailymix.js"></script>
+    <script src="js/slider.js"></script>
+
+</body>
+
+</html>
