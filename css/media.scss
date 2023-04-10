@@ -1,0 +1,194 @@
+@media (max-width: 1211px) {
+    .right_Nav {
+        display: none;
+    }
+
+    .control_r {
+        width: 289px;
+    }
+
+    .control_c {
+        width: 400px;
+    }
+
+    .control_l {
+        width: 320px;
+        margin-right: 60px;
+        padding: 0px;
+    }
+
+    .songCont div {
+        display: flex;
+        flex-direction: column;
+        width: 173px;
+        padding-left: 3px;
+        justify-content: space-between;
+        -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6px, #000 calc(100% - 12px), transparent);
+    }
+
+    .TopContlibrary {
+        grid-column: 1 / 3;
+    }
+}
+
+
+@media (max-width: 1191px) {
+    .topResult {
+        grid-column: 1/-1;
+    }
+
+    .song4 {
+        grid-column: 1/-1;
+    }
+
+
+    .topResult_lib {
+        grid-column: 1 / 3;
+    }
+}
+
+
+@media (max-width: 1010px) {
+
+    // .songItem_play {
+    //     grid-template-columns: minmax(163px, 320px) minmax(143px, 198fr) minmax(86px, 172fr) 19px;
+    // }
+
+    .control_r {
+        padding-left: 68px;
+    }
+
+    .songCont div {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    // .songCont {
+    //     width: 70%;
+    // }
+
+    .topResult {
+        grid-column: 1/-1;
+    }
+
+    .song4 {
+        grid-column: 1/-1;
+    }
+
+    .btns_control-playlist {
+        display: none;
+    }
+
+    .elems {
+        justify-content: space-between;
+    }
+
+    .elem_playlist-title {
+        padding-right: 0px;
+    }
+
+    .itemMuz-ab {
+        .songCont {
+            width: 100%;
+            -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6px, #000 calc(100% - 12px), transparent);
+
+            div {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+    }
+
+    .playlist_hname {
+        max-width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6px, #000 calc(100% - 12px), transparent);
+    }
+
+    .songItem_play-ar {
+        grid-template-columns: minmax(163px, 1fr) minmax(143px, 1fr) 36px;
+    }
+
+    .topResult_lib {
+        grid-column: 1 / 3;
+    }
+}
+
+
+@media (max-width: 970px) {
+
+    .top_Cont-info {
+        /* padding: 0px 64px; */
+        margin-left: -55px;
+        width: 100%;
+        height: 158px;
+        margin-top: 0px;
+        display: flex;
+        gap: 32px;
+        transform: scale(0.8);
+    }
+
+    .control_names {
+        margin-right: 10px;
+    }
+
+    .control_r {
+        padding-left: 68px;
+    }
+
+    .lkbtn {
+        margin-right: 20px;
+    }
+
+    .muzInfos div {
+        grid-template-columns: minmax(154px, 306px) minmax(151px, 198fr) minmax(91px, 172fr) 32px;
+    }
+
+    .songItem_play {
+        grid-template-columns: minmax(123px, 291px) minmax(143px, 198fr) minmax(86px, 172fr) 32px;
+
+        .lkbtn {
+            margin-right: -10px;
+        }
+    }
+
+
+    .songsSearch {
+        .songItem {
+            grid-template-columns: 16px 7fr 4.65fr minmax(120px, 1fr);
+
+            div {
+                max-width: 237px;
+            }
+
+            .lkbtn {
+                margin-right: 20px;
+            }
+
+
+        }
+    }
+
+    .songItem_play-ar {
+        grid-template-columns: minmax(163px, 1fr) minmax(143px, 1fr) 36px;
+
+        .lkbtn {
+            margin-right: 10px;
+        }
+    }
+
+    .songItem_play {
+        .likedbt {
+            margin-right: 0px;
+        }
+    }
+
+    .songItem_play {
+        .lkrec {
+            margin-right: 0px;
+        }
+    }
+}
