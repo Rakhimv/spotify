@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title id="title">Spotify - Моя медиатека</title>
+</head>
+
+<body>
+    <div class="pc" style="display: none;">
+        <!-- Animation -->
+        <div class="bgcLoad">
+            <div id="wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="559" height="168" viewBox="0 0 559 168"
+                    id="spotify--logo">
+                    <g id="logo--circle">
+                        <path id="logo--circle_1_" d="M84,0.3L84,0.3C37.7,0.3,0.3,37.8,0.3,84c0,46.3,37.5,83.7,83.7,83.7
+              c46.3,0,83.7-37.5,83.7-83.7C167.7,37.8,130.2,0.3,84,0.3z" />
+                        <path class="logo--circle--bar" id="logo--circle--bar-1"
+                            d="M41.7,114.7c29.2-6.7,53.9-3.9,73.6,8.1c2.5,1.5,5.7,0.7,7.2-1.7
+              c1.5-2.5,0.7-5.7-1.7-7.2c-22.1-13.5-49.4-16.6-81.3-9.3c-2.8,0.6-4.6,3.4-3.9,6.2C36,113.6,38.8,115.4,41.7,114.7z" />
+                        <path class="logo--circle--bar" id="logo--circle--bar-2"
+                            d="M130.5,89.3c-25.8-15.9-63.7-20.4-94.1-11.1c-3.4,1-5.4,4.7-4.4,8.1
+              c1,3.4,4.7,5.4,8.1,4.3c26.6-8.1,60.9-4.1,83.4,9.8c3.1,1.9,7.1,0.9,9-2.2v0C134.5,95.2,133.6,91.2,130.5,89.3z" />
+                        <path class="logo--circle--bar" id="logo--circle--bar-3"
+                            d="M144.3,71.8c2.2-3.7,1-8.5-2.7-10.7C110.5,42.6,61.3,40.9,31.7,49.8
+              c-4.1,1.3-6.5,5.6-5.2,9.8c1.3,4.1,5.6,6.5,9.8,5.2c25.8-7.8,70.3-6.3,97.3,9.7h0C137.2,76.7,142.1,75.5,144.3,71.8z" />
+                    </g>
+                    <g id="logo--name">
+                        <path id="logo--name--s" d="M228.1,77.6L228.1,77.6c-14.5-3.5-17.1-5.9-17.1-11c0-4.8,4.5-8,11.2-8
+              c6.5,0,13,2.5,19.8,7.5c0.2,0.2,0.5,0.2,0.7,0.2c0.3,0,0.5-0.2,0.6-0.4l7.1-10c0.3-0.4,0.2-1-0.2-1.3c-8.1-6.5-17.2-9.6-27.8-9.6
+              c-15.6,0-26.5,9.4-26.5,22.8c0,14.4,9.4,19.5,25.7,23.4c13.8,3.2,16.2,5.9,16.2,10.6c0,5.3-4.7,8.6-12.3,8.6
+              c-8.4,0-15.3-2.8-23-9.5c-0.2-0.2-0.5-0.2-0.7-0.2c-0.3,0-0.5,0.1-0.6,0.3l-7.9,9.4c-0.3,0.4-0.3,1,0.1,1.3c9,8,20,12.2,31.9,12.2
+              c16.8,0,27.7-9.2,27.7-23.4C252.9,88.5,245.7,81.9,228.1,77.6z" />
+                        <path id="logo--name--p" d="M291,63.3L291,63.3c-7.3,0-13.3,2.9-18.2,8.8v-6.6c0-0.5-0.4-0.9-0.9-0.9h-13
+              c-0.5,0-0.9,0.4-0.9,0.9v73.6c0,0.5,0.4,1,0.9,1h13c0.5,0,0.9-0.4,0.9-1v-23.2c4.9,5.5,10.9,8.2,18.2,8.2
+              c13.5,0,27.3-10.4,27.3-30.4C318.2,73.8,304.5,63.3,291,63.3z M303.2,93.7c0,10.1-6.2,17.2-15.2,17.2c-8.8,0-15.5-7.4-15.5-17.2
+              c0-9.8,6.7-17.2,15.5-17.2C296.8,76.5,303.2,83.7,303.2,93.7L303.2,93.7z" />
+                        <path id="logo--name--o" d="M353.4,63.3L353.4,63.3c-17.5,0-31.1,13.4-31.1,30.6c0,17,13.6,30.3,30.9,30.3
+              c17.5,0,31.2-13.4,31.2-30.5C384.4,76.7,370.8,63.3,353.4,63.3z M353.4,111c-9.3,0-16.3-7.5-16.3-17.3c0-9.9,6.8-17.1,16.1-17.1
+              c9.3,0,16.4,7.5,16.4,17.4C369.5,103.8,362.7,111,353.4,111z" />
+                        <path id="logo--name--t" d="M421.6,64.5L421.6,64.5l-14.3,0V49.9c0-0.5-0.4-0.9-0.9-0.9h-13c-0.5,0-1,0.4-1,0.9v14.6
+              h-6.2c-0.5,0-0.9,0.4-0.9,0.9v11.1c0,0.5,0.4,0.9,0.9,0.9h6.2v28.8c0,11.6,5.8,17.5,17.2,17.5c4.6,0,8.5-1,12.1-3
+              c0.3-0.2,0.5-0.5,0.5-0.8v-10.6c0-0.3-0.2-0.6-0.5-0.8c-0.3-0.2-0.6-0.2-0.9,0c-2.5,1.2-4.9,1.8-7.6,1.8c-4.2,0-6-1.9-6-6.1V77.5
+              h14.2c0.5,0,0.9-0.4,0.9-0.9V65.5C422.6,64.9,422.2,64.5,421.6,64.5z" />
+                        <g id="logo--name--i">
+                            <path id="logo--name--i-stem" d="M442.5,64.5L442.5,64.5l-13,0c-0.5,0-1,0.4-1,0.9v56.5c0,0.5,0.4,0.9,1,0.9h13
+                c0.5,0,1-0.4,1-0.9V65.5C443.5,64.9,443,64.5,442.5,64.5z" />
+                            <path id="logo--name--i-dot" d="M436.1,38.8c-5.1,0-9.3,4.2-9.3,9.3c0,5.1,4.2,9.3,9.3,9.3s9.3-4.2,9.3-9.3
+                C445.4,42.9,441.2,38.8,436.1,38.8z" />
+                        </g>
+                        <path id="logo--name--fy"
+                            d="M537.6,64.6h-13.5c-0.4,0-0.8,0.3-0.9,0.6l-13.8,39.4l-15.1-39.5
+              c-0.1-0.4-0.5-0.6-0.9-0.6h-22.1v0l0,0v-1.8c0-5.3,2-7.6,6.5-7.6c2.7,0,4.9,0.5,7.3,1.3c0.3,0.1,0.6,0,0.8-0.1
+              c0.2-0.2,0.4-0.5,0.4-0.8V44.7c0-0.4-0.3-0.8-0.7-0.9c-2.6-0.8-5.8-1.5-10.8-1.5c-12,0-18.3,6.7-18.3,19.5v2.7h-6.2
+              c-0.5,0-1,0.4-1,0.9v11.2c0,0.5,0.4,0.9,1,0.9h6.2v44.4c0,0.5,0.4,0.9,1,0.9h12.9c0.5,0,1-0.4,1-0.9V77.5h12.1l18.5,44.4
+              c-2.1,4.7-4.2,5.6-7,5.6c-2.3,0-4.7-0.7-7.1-2c-0.2-0.1-0.5-0.1-0.8-0.1c-0.2,0.1-0.5,0.3-0.6,0.5l-4.4,9.6c-0.2,0.5,0,1,0.4,1.2
+              c4.6,2.5,8.7,3.5,13.8,3.5c9.6,0,14.8-4.5,19.5-16.4l22.5-58c0.1-0.3,0.1-0.6-0.1-0.9C538.2,64.7,537.9,64.6,537.6,64.6z" />
+                        <g id="logo--name--registered">
+                            <path id="logo--name--registered-r_1_"
+                                d="M551.6,74.4c1.3-0.4,2.2-1.3,2.2-2.9c0-1.9-1.5-3.1-3.7-3.1h-4.3V78h1.8
+                v-3.3h2L552,78h2.2L551.6,74.4L551.6,74.4z M550,73.2h-2.4v-3h2.4c1.2,0,1.9,0.5,1.9,1.5C551.9,72.6,551.2,73.2,550,73.2z" />
+                            <path id="logo--name--registered-r-circle" d="M549.6,64.4c-5.1,0-9.2,4.2-9.2,9.2c0,5,4,9.1,9.1,9.1
+                c5.1,0,9.2-4.2,9.2-9.2C558.7,68.5,554.7,64.4,549.6,64.4z M549.5,81.8c-4.6,0-8.2-3.7-8.2-8.2c0-4.5,3.5-8.3,8.2-8.3
+                c4.6,0,8.2,3.7,8.2,8.2C557.7,78,554.2,81.8,549.5,81.8z" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <!-- Левый блок -->
+            <nav class="left_Nav">
+                <div class="logo-pc">
+                    <div class="logo">
+                        <img src="logo/Single.svg" class="imgSingle" alt="">
+                        <img src="logo/Vector.svg" class="imgSpotify" alt="">
+                    </div>
+                    <div class="nav-arr"></div>
+                </div>
+
+                <div class="menu_container">
+                    <div class="item_menu item_menu-active">
+                        <img src="icons/Line=empty, Name=home.svg" alt="" class="item_logo">
+                        <p>Home</p>
+                    </div>
+                    <div class="item_menu">
+                        <img src="icons/Line=empty, Name=search.svg" alt="" class="item_logo">
+                        <p>Search</p>
+                    </div>
+                    <div class="item_menu">
+                        <img src="icons/Line=empty, Name=library.svg" alt="" class="item_logo">
+                        <p>Library</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item_menu like-Songs">
+                        <img src="icons/Line=empty, Name=like.svg" alt="" class="item_logo">
+                        <p>Liked Songs</p>
+                    </div>
+                    <div class="item_menu like-Songs">
+                        <img src="icons/downloads.svg" alt="" class="item_logo">
+                        <img src="./icons/SpotifyNew.gif" alt="" class="newNew">
+                        <p>Downloads</p>
+                    </div>
+                    <div class="line"></div>
+
+                    <div class="navAuth" style="display: none;">
+                        <div class="strelka">
+                        </div>
+                        <p class="cates"></p>
+                        <span>Log in to see saved songs, podcasts, artists, and playlists in Your <span
+                                class="cates2"></span></span>
+                        <a href="#">Not now</a>
+                        <button onclick="login()">Log In</button>
+                    </div>
+                </div>
+
+
+                <div class="nav_playlist">
+                    <div class="title">
+                        <p>Playlists</p>
+                        <img src="icons/Line=empty, Name=dots.svg" alt="">
+                        <div class="createSets">
+                            <div class="createPlaylist">Create a Playlist</div>
+                            <div class="createFolder">Create a Folder</div>
+                        </div>
+                    </div>
+                    <div class="change_list">
+                        <img src="icons/folder.svg" alt="">
+                        <img src="icons/Line=empty, Name=ListBullets.svg" alt="">
+                    </div>
+                    <div class="playlists">
+                    </div>
+                    <a class="download_app" onclick="downloadEXE()">DOWNLOAD APP</a>
+                </div>
+                <a class="download_hide" onclick="downloadEXE()">
+                    <i class='bx bx-download'></i>
+                </a>
+            </nav>
+
+
+
+            <!-- Основной блок -->
+            <div class="home_Nav">
+                <header>
+                    <div class="lefting">
+                        <div class="left_header">
+                            <div class="backarr">
+                                <img src="icons/back.svg" alt="">
+                            </div>
+                            <div class="nextarr">
+                                <img src="icons/next.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="playlist_hname"></div>
+                        <div class="cont_input">
+                            <i class='bx bx-search'></i>
+                            <input type="text" placeholder="Artists, songs, or podcasts" id="search_inp">
+                        </div>
+                    </div>
+
+                    <div class="authFalse">
+                        <a href="login.html">Log in</a>
+                        <a href="signup.html">Sign up</a>
+                    </div>
+
+                    <div class="authTrue">
+                        <div class="MyProfile">
+                            <img src="https://i.pinimg.com/280x280_RS/2e/45/66/2e4566fd829bcf9eb11ccdb5f252b02f.jpg"
+                                alt="">
+                            <div class="MySetting" style="display: none;">
+                                <div id="setProfile">Profile<i class='bx bx-cog'></i></div>
+                                <div class="line"></div>
+                                <div id="logout">Log Out<i class='bx bx-log-out'></i></div>
+                            </div>
+                        </div>
+                        <div class="notifications"><i class='bx bx-bell'></i></div>
+                    </div>
+                </header>
+
+                <div class="topCont">
+                    <div class="sets setsActive">All</div>
+                    <div class="sets">Songs</div>
+                    <div class="sets">Albums</div>
+                    <div class="sets">Artists</div>
+                    <div class="sets">Playlists</div>
+                </div>
+
+                <div class="topSong" style="display: none;">
+                    <div>#</div>
+                    <div>Title</div>
+                    <div>Album</div>
+                    <div><i class='bx bx-time'></i></div>
+                </div>
+
+                <div class="basic">
+
+                    <div class="my_category">
+                        <div class="liked_cat">
+                            <span class="bgc1">
+                                <img src="icons/Line=fill, Name=like.svg" alt="">
+                            </span>
+                            <p>Liked Songs</p>
+                        </div>
+                        <div class="recently_cat">
+                            <span class="bgc2">
+                                <img src="icons/Line=fill, Name=music.svg" alt="">
+                            </span>
+                            <p>Recently Played</p>
+                        </div>
+                        <div class="friends_cat">
+                            <span class="bgc3">
+                                <img src="icons/Line=fill, Name=friends.svg" alt="">
+                            </span>
+                            <p>Friends Played</p>
+                        </div>
+                    </div>
+
+                    <div class="cont_playlist">
+                        <div class="loader">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="lyrics_container">
+                    <div class="lyrics_close">CLOSE</div>
+                    <div class="lyrics_img">
+                        <div class="lyricsTitle">
+                            <p>Lyrics</p>
+                            <span>The Cure- Friday Im In Love</span>
+                        </div>
+                    </div>
+                    <div class="lyrics_inner">
+                        <p id="lyricsText"></p>
+                    </div>
+                </div>
+
+                <div class="ai_container">
+                    <div class="ai_close">CLOSE</div>
+                    <div class="friendProfile">
+                        <img class="friendAva">
+                        <div>
+                            <p class="friendName"></p>
+                            <span class="lastSeen"></span>
+                        </div>
+                        <div class="chatSettings">
+                            <img src="./icons/api.svg" id="apiSet">
+                            <img src="./icons/deletechat.svg" id="deletechat">
+                        </div>
+                    </div>
+                    <div class="friendsChat"></div>
+                    <div class="aiInput">
+                        <div class="scrit">
+                            <textarea id="inpAi" placeholder="Write a message"></textarea>
+                        </div>
+                        <div class="aiSend">
+                            <img src="./icons/send.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Правый блок: Друзья -->
+            <div class="right_Nav">
+
+                <div class="right_Nav-flex">
+                    <div class="right_Nav-hide">
+                        <img src="icons/Line=empty, Name=friends.svg" alt="">
+                        <img src="icons/Line=empty, Name=left-arrow.svg" alt="">
+                    </div>
+                    <div class="friendActivity">
+                        <p>Friends Activity</p>
+                    </div>
+                </div>
+
+                <div class="friend_container">
+                    <div class="friends_authFalse">
+                        <p>Make friends with a free Spotify account</p>
+                        <button onclick="signup()">Sign Up</button>
+                    </div>
+                    <div class="friends_authTrue" style="display: none;"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="prewievCont">
+            <div class="razmit"></div>
+            <div class="prewievElem">
+                <img alt="">
+                <div class="flexPrew">
+                    <p>Start listening with a free Spotify account</p>
+                    <button onclick="signup()">Sign Up Free</button>
+                    <button onclick="downloadEXE()">Download app</button>
+                </div>
+                <div class="close">Close</div>
+            </div>
+        </div>
+
+        <div class="editProfile" style="display: none;">
+            <div class="backBgc"></div>
+            <div class="editCont">
+                <p>Profile Details</p>
+                <div class="editFlex">
+                    <div class="reava">
+                        <label for="refile"></label>
+                        <input type="file" accept="image/*" id="refile">
+                        <i class='bx bx-image-add' style="display: none;"></i>
+                    </div>
+                    <div class="nameInp">
+                        <input type="text" maxlength="30" id="nameInp">
+                        <div class="userInfo"></div>
+                    </div>
+                    <button id="saveBtn">SAVE</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="editProfile2" style="display: none;">
+            <div class="backBgc2"></div>
+
+            <div class="editCont2">
+                <form action="#" id="createForm">
+                    <p>Create Playlist</p>
+                    <div class="editFlex2">
+
+                        <div class="reava2">
+                            <label for="refile2"></label>
+                            <input type="file" accept="image/*" id="refile2">
+                        </div>
+                        <div class="nameInp2">
+                            <input type="text" maxlength="15" id="nameInp2" placeholder="Playlist Name" required>
+                            <input type="text" id="nameInp3" placeholder="Description" required>
+                            <select id="selectFolder">
+                            </select>
+                        </div>
+                        <button id="saveBtn2" type="submit">SAVE</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+        <!-- Контроллер -->
+        <div class="controller">
+            <div class="control_authFalse">
+                <div>
+                    <span>Preview of Spotify</span><br>
+                    <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                </div>
+                <button onclick="signup()">Sign up free</button>
+            </div>
+            <div class="control_authTrue">
+                <div class="control_l">
+                    <img src="https://cdn1.umg3.net/452/files/2018/08/friday-im-in-love.jpg" id="control_img">
+                    <div class="control_names">
+                        <p>Friday i'm in love</p>
+                        <span>The cure</span>
+                    </div>
+                    <div class="control_icons">
+                        <img src="./icons/Line=empty, Name=like.svg" id="addLikedBtn">
+                        <img src="./icons/Line=empty, Name=list.svg" id="recentlyBtn">
+                        <img src="./icons/downloads.svg" id="downloadmuz">
+                    </div>
+                </div>
+
+
+                <div class="control_c">
+                    <div class="muz_controles">
+                        <div class="control_play">
+                            <div class="random-m">
+                                <img src="icons/Shuffle.svg" alt="">
+                            </div>
+                            <div class="back_muz">
+                                <img src="icons/Back-muz.svg" alt="">
+                            </div>
+                            <div class="play_pause">
+                                <img src="icons/Play.svg" alt="">
+                            </div>
+                            <div class="next_muz">
+                                <img src="icons/Forward.svg" alt="">
+                            </div>
+                            <div class="repeat-m">
+                                <img src="icons/Repeat.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="muz_duration">
+                        <div class="dur_start">0:00</div>
+                        <div id="range">
+                            <div id="progress"></div>
+                        </div>
+                        <div class="dur_end">0:30</div>
+                    </div>
+                </div>
+                <div class="control_r">
+                    <audio
+                        src="https://p.scdn.co/mp3-preview/a3f7228db24537c07bf3b0d303dbd11637763ba2?cid=587ef39d30644f2496f1b79fc46d86dd"
+                        id="nowAudio"></audio>
+                    <img src="icons/lyrics.svg" alt="" id="lyricsBtn">
+                    <div class="sound">
+                        <img src="icons/Listening on.svg" alt="">
+                        <div id="range_sound">
+                            <div id="progress_sound"></div>
+                        </div>
+                    </div>
+                    <img src="icons/Full Screen.svg" onclick="fullscreen()" id="fullscreen" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="mobile">
+
+        <div class="masic">
+            <div class="topBar">
+                <div class="hello">Good morning</div>
+                <div class="mb-burger-btn">
+                    <img src="mb-icons/mb-recently.svg" alt="">
+                    <img src="mb-icons/mb-settings.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="await-box">
+            </div>
+        </div>
+
+        <div class="mb-bottomSets">
+            <div class="mb-controller" style="display: none;">
+                <div class="bgcController">
+                    <div class="nowMbImg"></div>
+                    <div class="nowFlex">
+                        <p class="nowMbName"></p>
+                        <span class="nowMbArtist"></span>
+                    </div>
+                    <div class="nowTimeUpdate">
+                        <div class="nowProgress"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-sets">
+                <div class="mb-set mb-active">
+                    <img src="mb-icons/mb-home-active.svg" alt="">
+                    <span>Home</span>
+                </div>
+                <div class="mb-set">
+                    <img src="mb-icons/mb-ser.svg" alt="">
+                    <span>Search</span>
+                </div>
+                <div class="mb-set">
+                    <img src="mb-icons/mb-lib.svg" alt="">
+                    <span>Liked Songs</span>
+                </div>
+                <div class="mb-set">
+                    <img src="mb-icons/mb-down.svg" alt="">
+                    <span>Downloads</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidePlayer">
+            <div class="bgcRazmit">
+                <div class="imgBoxHide"></div>
+                <div class="hide-controller">
+                    <div class="hide-c-1">
+                        <div>
+                            <span class="hide-c-title"></span>
+                            <span class="hide-c-artist"></span>
+                        </div>
+                        <div class="set-mb-pl">
+                            <img src="./icons/downloads.svg" alt="" class="down-hide">
+                            <img src="./icons/Line=empty, Name=like.svg" alt="" class="like-hide">
+                        </div>
+                    </div>
+
+                    <div class="hide-c-2">
+                        <div class="c2_controller">
+                            <input type="range" class="mb-range" min="0" max="100" value="0">
+                            <div class="prgge">
+                                <div class="prg_now"></div>
+                            </div>
+                        </div>
+                        <div class="timeUpdates">
+                            <div class="upc1"></div>
+                            <div class="upc2"></div>
+                        </div>
+                        <div class="mb-controlsBtn">
+                            <div class="mb-random">
+                                <img src="icons/Shuffle.svg" alt="">
+                            </div>
+                            <div class="mb-backBtn"></div>
+                            <div class="mb-play">
+                                <img src="./icons/Pause.svg" alt="">
+                            </div>
+                            <div class="mb-nextBtn"></div>
+                            <div class="mb-repeat">
+                                <img src="icons/Repeat.svg" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="mb-lyrics-cont">
+                            <p class="lyr_title">Lyric</p>
+                            <div class="uncover"><i class='bx bx-list-plus'></i></div>
+                            <div class="lyric_hide">
+                                <div class="mb-lyrics-content"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrBottom"><img src="./icons/bottomarr.svg" alt=""></div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        let pc = document.querySelector(".pc")
+        let mobile = document.querySelector(".mobile")
+
+
+        if (window.innerWidth < 1000) {
+            pc.style.display = "none"
+            mobile.style.display = "block"
+        } else {
+            pc.style.display = "block"
+            mobile.style.display = "none"
+        }
+        window.addEventListener("resize", () => {
+            if (window.innerWidth < 900) {
+                pc.style.display = "none"
+                mobile.style.display = "block"
+            } else {
+                pc.style.display = "block"
+                mobile.style.display = "none"
+            }
+        })
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/briangonzalez/rgbaster.js/b2fb235b/rgbaster.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/shablon.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dailymix.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/download.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/mobile.js"></script>
+</body>
+
+</html>

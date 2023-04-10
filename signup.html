@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Signup - Spotify</title>
+</head>
+
+<body>
+
+    <form action="http://localhost:7777" name="signup">
+        <div class="bgcForm">
+            <input type="text" class="email_reg" placeholder="E-mail" required>
+            <input type="text" class="name_reg" maxlength="20" placeholder="Name" required>
+            <button type="button" class="next_one" id="next1">NEXT</button>
+        </div>
+        <div class="passForm">
+            <input type="password" class="pass" placeholder="Password" required>
+           <div class="males">
+            <label for="man" class="man activeMal labels"><i class='bx bx-male-sign'></i></label>
+            <label for="woman" class="woman labels"><i class='bx bx-female-sign'></i></label>
+            <input type="radio" name="male" checked id="man" required>
+            <input type="radio" name="male" id="woman" required>
+           </div>
+            <button type="button" class="next_two" id="next2">NEXT</button>
+        </div>
+
+        <div class="finalForm">
+           <div class="pass" id="avaBgc"></div>
+            <div class="males">
+                <label for="ava" class="avatar">Profile photo<i class='bx bx-cloud-download'></i></label>
+                <input type="file"  name="ava" id="ava" accept="image/*" required>
+               </div>
+            <button type="submit" class="next_two" id="next3">SIGNUP</button>
+        </div>
+    </form>
+
+    <div class="playing_cont">
+        <span></span><span></span><span></span>
+    </div>
+
+    <div class="prews_items"></div>
+
+    <script src="https://rakhimv.github.io/spotify/aziz.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
