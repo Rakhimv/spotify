@@ -85,7 +85,7 @@ signup.addEventListener("submit", function (event) {
         auth: true
     }
 
-    aziz.post(`https://wepro-cca85-default-rtdb.firebaseio.com/users/${emailReg.value.split("@")[0]}.json`, data, options)
+    axios.post(`https://wepro-cca85-default-rtdb.firebaseio.com/users/${emailReg.value.split("@")[0]}.json`, data, options)
     setTimeout(() => {
         alert("Вы успешно зарегистрировались теперь войдите в свой аккаунт!")
         window.location.href = "login.html"
