@@ -1,20 +1,5 @@
 {
-    "data": {
-        "browseStart": {
-            "__typename": "BrowseSectionContainer",
-            "uri": "spotify:page:0JQ5DArNBzkmxXHCBROWSE",
-            "sections": {
-                "items": [
-                    {
-                        "uri": "spotify:section:0JQ5DAwD41j2mAgQ1AtEZl",
-                        "data": {
-                            "__typename": "BrowseGridSectionData",
-                            "title": {
-                                "transformedLabel": "Все остальное"
-                            }
-                        },
-                        "sectionItems": {
-                            "items": [
+                                "items": [
                                 {
                                     "uri": "spotify:page:0JQ5DArNBzkmxXHCqFLx2J",
                                     "content": {
@@ -1537,11 +1522,4 @@
                                     }
                                 }
                             ]
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "extensions": {}
 }
