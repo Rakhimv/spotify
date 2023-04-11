@@ -7,7 +7,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Подкасты"
+                            "transformedLabel": "Podcasts"
                         },
                         "artwork": {
                             "sources": [
@@ -32,7 +32,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Поп"
+                            "transformedLabel": "Pop"
                         },
                         "artwork": {
                             "sources": [
@@ -57,7 +57,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Хип-хоп"
+                            "transformedLabel": "Hip-Hop"
                         },
                         "artwork": {
                             "sources": [
@@ -82,7 +82,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Настроение"
+                            "transformedLabel": "Mood"
                         },
                         "artwork": {
                             "sources": [
@@ -107,7 +107,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Dance"
+                            "transformedLabel": "Dance/Electronic"
                         },
                         "artwork": {
                             "sources": [
@@ -132,7 +132,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Чарты"
+                            "transformedLabel": "Charts"
                         },
                         "artwork": {
                             "sources": [
@@ -157,7 +157,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Для геймеров"
+                            "transformedLabel": "Gaming"
                         },
                         "artwork": {
                             "sources": [
@@ -182,7 +182,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Рок"
+                            "transformedLabel": "Rock"
                         },
                         "artwork": {
                             "sources": [
@@ -207,7 +207,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Инди"
+                            "transformedLabel": "Indie"
                         },
                         "artwork": {
                             "sources": [
@@ -232,7 +232,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Тренировка"
+                            "transformedLabel": "Workout"
                         },
                         "artwork": {
                             "sources": [
@@ -257,7 +257,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Рекомендации"
+                            "transformedLabel": "Discover"
                         },
                         "artwork": {
                             "sources": [
@@ -282,7 +282,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Набирает популярность"
+                            "transformedLabel": "Trending"
                         },
                         "artwork": {
                             "sources": [
@@ -307,7 +307,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "K-Pop"
+                            "transformedLabel": "K-pop"
                         },
                         "artwork": {
                             "sources": [
@@ -332,7 +332,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Релакс"
+                            "transformedLabel": "Chill"
                         },
                         "artwork": {
                             "sources": [
@@ -357,7 +357,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Сон"
+                            "transformedLabel": "Sleep"
                         },
                         "artwork": {
                             "sources": [
@@ -382,7 +382,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Вечеринка"
+                            "transformedLabel": "Party"
                         },
                         "artwork": {
                             "sources": [
@@ -407,7 +407,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Для дома"
+                            "transformedLabel": "At Home"
                         },
                         "artwork": {
                             "sources": [
@@ -432,7 +432,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "В дорогу"
+                            "transformedLabel": "Travel"
                         },
                         "artwork": {
                             "sources": [
@@ -507,7 +507,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Латино"
+                            "transformedLabel": "Latin"
                         },
                         "artwork": {
                             "sources": [
@@ -557,7 +557,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Эпохи"
+                            "transformedLabel": "Decades"
                         },
                         "artwork": {
                             "sources": [
@@ -582,7 +582,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Любовь"
+                            "transformedLabel": "Love"
                         },
                         "artwork": {
                             "sources": [
@@ -607,7 +607,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Метал"
+                            "transformedLabel": "Metal"
                         },
                         "artwork": {
                             "sources": [
@@ -632,7 +632,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Аниме"
+                            "transformedLabel": "Anime"
                         },
                         "artwork": {
                             "sources": [
@@ -657,7 +657,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Джаз"
+                            "transformedLabel": "Jazz"
                         },
                         "artwork": {
                             "sources": [
@@ -682,7 +682,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Кантри"
+                            "transformedLabel": "Country"
                         },
                         "artwork": {
                             "sources": [
@@ -707,7 +707,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Классика"
+                            "transformedLabel": "Classical"
                         },
                         "artwork": {
                             "sources": [
@@ -732,7 +732,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Фолк и акустическая музыка"
+                            "transformedLabel": "Folk & Acoustic"
                         },
                         "artwork": {
                             "sources": [
@@ -757,7 +757,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Фокус"
+                            "transformedLabel": "Focus"
                         },
                         "artwork": {
                             "sources": [
@@ -782,7 +782,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Соул"
+                            "transformedLabel": "Soul"
                         },
                         "artwork": {
                             "sources": [
@@ -807,7 +807,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Для всей семьи"
+                            "transformedLabel": "Kids & Family"
                         },
                         "artwork": {
                             "sources": [
@@ -832,7 +832,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Кино и сериалы"
+                            "transformedLabel": "TV & Movies"
                         },
                         "artwork": {
                             "sources": [
@@ -882,7 +882,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Инструментальная музыка"
+                            "transformedLabel": "Instrumental"
                         },
                         "artwork": {
                             "sources": [
@@ -907,7 +907,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Панк"
+                            "transformedLabel": "Punk"
                         },
                         "artwork": {
                             "sources": [
@@ -932,7 +932,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Эмбиент"
+                            "transformedLabel": "Ambient"
                         },
                         "artwork": {
                             "sources": [
@@ -957,7 +957,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Блюз"
+                            "transformedLabel": "Blues"
                         },
                         "artwork": {
                             "sources": [
@@ -982,7 +982,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Ужин"
+                            "transformedLabel": "Cooking & Dining"
                         },
                         "artwork": {
                             "sources": [
@@ -1007,7 +1007,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Альтернатива"
+                            "transformedLabel": "Alternative"
                         },
                         "artwork": {
                             "sources": [
@@ -1032,7 +1032,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Карибская музыка"
+                            "transformedLabel": "Caribbean"
                         },
                         "artwork": {
                             "sources": [
@@ -1057,7 +1057,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Афро"
+                            "transformedLabel": "Afro"
                         },
                         "artwork": {
                             "sources": [
@@ -1082,7 +1082,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Авторы песен"
+                            "transformedLabel": "Songwriters"
                         },
                         "artwork": {
                             "sources": [
@@ -1107,7 +1107,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Фанк"
+                            "transformedLabel": "Funk & Disco"
                         },
                         "artwork": {
                             "sources": [
@@ -1182,7 +1182,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Лето"
+                            "transformedLabel": "Summer"
                         },
                         "artwork": {
                             "sources": [
@@ -1232,7 +1232,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Забота о себе"
+                            "transformedLabel": "Wellness"
                         },
                         "artwork": {
                             "sources": [
@@ -1257,7 +1257,7 @@
                 "data": {
                     "cardRepresentation": {
                         "title": {
-                            "transformedLabel": "Рамадан"
+                            "transformedLabel": "Ramadan"
                         },
                         "artwork": {
                             "sources": [
